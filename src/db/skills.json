@@ -1,0 +1,20 @@
+{
+	"skills": [
+		{
+			"type": "FrontEnd",
+			"contents": ["Vue.Js + Nuxt.Js", "React.Js + Next.Js", "HTML, CSS, JQuery, JAVASCRIPT"]
+		},
+		{
+			"type": "BackEnd",
+			"contents": ["Nest.Js", "MySql"]
+		},
+		{
+			"type": "tools",
+			"contents": ["Git", "Jira", "Confluence", "Svn"]
+		},
+		{
+			"type": "자격증",
+			"contents": ["정보처리기사(2019)", "SQL개발자(2023)"]
+		}
+	]
+}
