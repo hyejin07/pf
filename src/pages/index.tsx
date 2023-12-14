@@ -1,4 +1,3 @@
-import Contact from './component/Contact'
 import About from './component/About'
 
 const Home = () => {
