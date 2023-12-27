@@ -25,11 +25,11 @@ const Header = () => {
 							<li className={router.pathname === '/resume' ? 'active' : ''} onClick={() => router.push('/resume')}>
 								Career
 							</li>
-							{/* <li
+							<li
 								className={router.pathname === '/portfolio' ? 'active' : ''}
 								onClick={() => router.push('/portfolio')}>
 								Portfolio
-							</li> */}
+							</li>
 						</ul>
 					</nav>
 				</div>
