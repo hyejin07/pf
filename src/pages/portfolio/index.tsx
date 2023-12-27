@@ -1,5 +1,6 @@
 import styles from '@/styles/Portfolio.module.css'
 import lists from '@/db/portfolio.json'
+import { prefix } from '@/config/config'
 
 const Portfolio = () => {
 	return (
@@ -9,7 +10,7 @@ const Portfolio = () => {
 					<div key={i}>
 						<article className={styles.pf}>
 							<div className={styles.left_con}>
-								<img src={pf.image} alt={pf.subject} />
+								<img src={prefix ? `${prefix}${pf.image}` : pf.image} alt={pf.subject} />
 							</div>
 							<div className={styles.right_con}>
 								<div className={styles.table_wrap}>

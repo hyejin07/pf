@@ -1,3 +1,4 @@
+import { prefix } from '@/config/config'
 import styles from '@/styles/About.module.css'
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
 				</ul>
 				<article className={styles.profile}>
 					<div className={styles.img_wrap}>
-						<img src="/images/profile.jpg" alt="프론트엔드 개발자 김혜진" />
+						<img src={`${prefix}/images/profile.jpg`} alt="프론트엔드 개발자 김혜진" />
 					</div>
 					<div>
 						<ul>
