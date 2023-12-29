@@ -1,9 +1,25 @@
 {
 	"pf": [
 		{
+			"image": "/images/product/kakaovx.png",
+			"subject": "카카오 헬스케어 서비스 구축",
+			"introduce": [
+				"React, Next, typescript 기반의 웹뷰 개발",
+				"Recoil 상태관리",
+				"NestJS로 API개발",
+				"MySql 테이블 설계 및 생성"
+			],
+			"frontend": "React.Js, Next.Js, Recoil, typescript",
+			"backend": "node.Js, nest.Js, MySQL",
+			"tools": "Git, Figma",
+			"android": "",
+			"ios": "",
+			"web": ""
+		},
+		{
 			"image": "/images/product/HJ.png",
 			"subject": "프론트엔드 김혜진 포트폴리오 사이트",
-			"introduce": ["실무에서 부족한 리액트 경험을 채우기 위해 혼자 공부하면서 구축"],
+			"introduce": ["React, Next 기반의 웹사이트 개발"],
 			"frontend": "React.Js, Next.Js, typescript",
 			"backend": "",
 			"tools": "Git",

@@ -2,7 +2,7 @@
 	"skills": [
 		{
 			"type": "FrontEnd",
-			"contents": ["Vue.Js + Nuxt.Js", "React.Js + Next.Js", "HTML, CSS, JQuery, JAVASCRIPT"]
+			"contents": ["React.Js + Next.Js + Typescript", "Vue.Js + Nuxt.Js", "HTML, CSS, JQuery, JAVASCRIPT"]
 		},
 		{
 			"type": "BackEnd",
