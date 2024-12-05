@@ -2,6 +2,18 @@
 
 const nextConfig = {
 	trailingSlash: true, // 빌드 시 폴더 구조 그대로 생성하도록
+	async headers() {
+		return [
+			{
+				source: '/codingedu/:path*',
+				headers: [{ key: 'Access-Control-Allow-Origin', value: '*' }],
+			},
+			{
+				source: '/vocarong/:path*',
+				headers: [{ key: 'Access-Control-Allow-Origin', value: '*' }],
+			},
+		]
+	},
 	async redirects() {
 		return [
 			{
