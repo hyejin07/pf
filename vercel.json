@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+		{
+			"source": "/codingedu",
+			"destination": "/codingedu/index.html"
+		},
+		{
+			"source": "/vocarong",
+			"destination": "/vocarong/index.html"
+		}
+	]
+}
