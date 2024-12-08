@@ -17,13 +17,13 @@ const nextConfig = {
 	async redirects() {
 		return [
 			{
-				source: '/codingedu',
+				source: '/codingedu/',
 				destination: '/codingedu/index.html',
 				permanent: true,
 			},
 
 			{
-				source: '/vocarong',
+				source: '/vocarong/',
 				destination: '/vocarong/index.html',
 				permanent: true,
 			},
